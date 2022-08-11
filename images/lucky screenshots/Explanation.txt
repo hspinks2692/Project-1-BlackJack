@@ -1,0 +1,2 @@
+1) I needed a way to check if aces worked properly. More specifically, I needed a way to check if multiple aces would be accounted for properly, counting the first as an 11 and the second as a 1. I got a very lucky run 3 tests in.
+2) hasAce was not refreshing properly. It would count the number of Aces in both hands. I was running tests to see if there could be an ace in both hands and still count only the aces in ONE player's hand. I got this run 5 tests in.

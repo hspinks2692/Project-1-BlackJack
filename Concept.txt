@@ -1,0 +1,23 @@
+For this first project, I Chose Blackjack! When I was still in high school, my first project was to make a game using Java Development Kit 2009. I chose blackjack. It was a horribly unoptimized 1139 lines of code. After that, whenever I learned a new language, I'd make the game again to see my progress. When I saw it as an option for project one, I knew it was meant to be!
+
+Planning Phase:
+
+The overall logic of the game should go like this:
+[Imgur](https://i.imgur.com/NkAgW6X.png)
+
+The game board should look something like this:
+[Imgur](https://i.imgur.com/LPfEzhw.png)
+
+Pseudocode idea:
+create card object
+create deck
+create player and dealer objects
+create functions to handle all of the cards (shuffling, dealing, etc)
+/********Gameplay below********/
+check for blackjack
+if none, then player can choose hit or stay
+hit will deal a card and check if the player busts
+if the player chooses stay, it will pass to dealer's turn
+dealer hits until he gets 17
+POSSIBLE: chips will be paid out
+play again will let the player choose if they want continue or not
